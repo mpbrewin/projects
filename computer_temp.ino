@@ -1,4 +1,5 @@
 // Program to display internal temperature of a computer via LEDs
+// Will be changed in the future to control computer's CPU fan via PWM (via fan pinout on motherboard)
 void setup()
 {
   Serial.begin(9600);  // opens a serial port
